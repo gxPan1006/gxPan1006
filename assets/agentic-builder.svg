@@ -1,0 +1,86 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Guoxun Pan - Agentic Builder</title>
+  <desc id="desc">A dark technology banner for a GitHub profile focused on AI agent systems and developer tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="0.52" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="86" y1="88" x2="1176" y2="328" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.45" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#172033" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0.76"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.72 0 0 0 0 0.96 0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#233047" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)" opacity="0.42"/>
+  <circle cx="1030" cy="58" r="210" fill="#0EA5E9" opacity="0.18" filter="url(#softGlow)"/>
+  <circle cx="1190" cy="358" r="170" fill="#22C55E" opacity="0.1" filter="url(#softGlow)"/>
+  <circle cx="254" cy="360" r="160" fill="#F59E0B" opacity="0.08" filter="url(#softGlow)"/>
+
+  <path d="M83 302 C188 221 263 246 362 166 C468 81 611 112 715 187 C804 251 882 271 987 196 C1078 132 1153 148 1201 101" stroke="url(#signal)" stroke-width="2.5" opacity="0.9"/>
+  <path d="M96 334 C220 281 292 316 399 246 C527 164 642 215 744 278 C843 339 950 313 1031 262 C1103 218 1157 228 1204 250" stroke="url(#signal)" stroke-width="1.5" opacity="0.36"/>
+
+  <g transform="translate(76 72)">
+    <text x="0" y="36" fill="#7DD3FC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing="3">
+      AI AGENT SYSTEMS / DEVELOPER TOOLS
+    </text>
+    <text x="0" y="112" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="66" font-weight="800">
+      Guoxun Pan
+    </text>
+    <text x="2" y="160" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="500">
+      Vibe coding ideas into working agent workflows.
+    </text>
+
+    <g transform="translate(0 206)">
+      <rect x="0" y="0" width="184" height="42" rx="21" fill="#0F172A" stroke="#284057"/>
+      <text x="22" y="27" fill="#BAE6FD" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="700">ThoughtWorks</text>
+      <rect x="206" y="0" width="128" height="42" rx="21" fill="#0F172A" stroke="#284057"/>
+      <text x="229" y="27" fill="#BBF7D0" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="700">Baichuan</text>
+      <rect x="356" y="0" width="224" height="42" rx="21" fill="#0F172A" stroke="#284057"/>
+      <text x="379" y="27" fill="#FED7AA" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="700">Alibaba ATH - Qwen</text>
+    </g>
+  </g>
+
+  <g transform="translate(798 78)">
+    <rect x="0" y="0" width="400" height="264" rx="24" fill="url(#card)" stroke="#26354F"/>
+    <text x="34" y="50" fill="#E2E8F0" font-family="JetBrains Mono, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17" font-weight="700">agent loop</text>
+    <text x="34" y="82" fill="#94A3B8" font-family="JetBrains Mono, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">issue -> workspace -> tool use -> review</text>
+
+    <g transform="translate(58 122)">
+      <circle cx="0" cy="0" r="17" fill="#38BDF8"/>
+      <circle cx="122" cy="-44" r="17" fill="#22C55E"/>
+      <circle cx="232" cy="4" r="17" fill="#F59E0B"/>
+      <circle cx="112" cy="72" r="17" fill="#A78BFA"/>
+      <path d="M16 -6 L106 -38" stroke="#64748B" stroke-width="2"/>
+      <path d="M137 -37 L216 -3" stroke="#64748B" stroke-width="2"/>
+      <path d="M219 13 L128 66" stroke="#64748B" stroke-width="2"/>
+      <path d="M96 64 L15 9" stroke="#64748B" stroke-width="2"/>
+      <path d="M17 0 L215 4" stroke="#334155" stroke-width="1.6" stroke-dasharray="7 7"/>
+      <path d="M121 -27 L113 54" stroke="#334155" stroke-width="1.6" stroke-dasharray="7 7"/>
+    </g>
+
+    <g transform="translate(34 218)">
+      <rect x="0" y="0" width="95" height="28" rx="14" fill="#111827" stroke="#334155"/>
+      <text x="18" y="19" fill="#E0F2FE" font-family="Inter, ui-sans-serif, system-ui" font-size="12" font-weight="700">CLI-first</text>
+      <rect x="109" y="0" width="111" height="28" rx="14" fill="#111827" stroke="#334155"/>
+      <text x="127" y="19" fill="#DCFCE7" font-family="Inter, ui-sans-serif, system-ui" font-size="12" font-weight="700">Observable</text>
+      <rect x="234" y="0" width="116" height="28" rx="14" fill="#111827" stroke="#334155"/>
+      <text x="252" y="19" fill="#FEF3C7" font-family="Inter, ui-sans-serif, system-ui" font-size="12" font-weight="700">Shippable</text>
+    </g>
+  </g>
+</svg>
