@@ -39,9 +39,6 @@ I build AI-native developer tools and agent systems that can move from an intere
 </p>
 
 <p>
-  <a href="https://github.com/gxPan1006/claude-code">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=gxPan1006&repo=claude-code&theme=transparent&hide_border=true&title_color=38BDF8&text_color=94A3B8&icon_color=A78BFA" alt="claude-code" />
-  </a>
   <a href="https://github.com/gxPan1006/mini-cognit-cli">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=gxPan1006&repo=mini-cognit-cli&theme=transparent&hide_border=true&title_color=38BDF8&text_color=94A3B8&icon_color=F59E0B" alt="mini-cognit-cli" />
   </a>
